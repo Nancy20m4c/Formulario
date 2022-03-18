@@ -8,16 +8,22 @@ header {
     margin-bottom: 1em;
 }
 
-div.panelDoble{
-    margin: 5%;
-    width: 50%;
-    float: left;
-    text-align: center;
+div.panelDoble{    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
     
 
 }
 
-
+div.formPanel{
+    background-color: aliceblue;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: #aeadad 5px 5px 13px;
+}
 
 h1 {
     text-align: center;
