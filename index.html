@@ -1,0 +1,95 @@
+<!DOCTYPE HTTML>
+<html>
+    <head>
+        
+        <title>DATOS ALUMNOS</title>
+        <link rel="stylesheet" type="text/css" href="estilos.css" />
+        <link rel="stylesheet" type="text/css" href="estilos.css" />
+           <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+        
+    </head>
+    
+    
+    <body  style="background-color:#eef6f3;">
+        
+        <header><h1>FORMULARIO DE CONSULTA</h1></header>
+        
+<!------------------------------------------------------------------------------------------------->
+       
+            <div class="panelDoble" style="background-color:#ffffc5;">
+            
+            <table>
+
+            <form>
+                <tr>
+                    <td><strong>Nombre:</strong></td>
+                    <td><input size="45" type="text" name="nombre" Value=""></td>
+                </tr>
+                
+                <tr>
+                    <td><strong>Fecha de nacimiento:</strong></td>
+                    <td><input type="date" name="nombre" Value=""></td>
+                </tr>
+                
+                 <tr>
+                    <td><strong> Numero de telefono:</strong></td>
+                    <td><input type="tel" name ="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}" placeholder="926-251-457"></td>
+                </tr>
+                
+                <tr>
+                    <td><strong>Correo electonico:</strong></td>
+                    <td><input size="45" type="email"></td>
+                </tr>
+                
+                <tr>
+                   <td><strong>Pais:</strong></td>
+                    <td><select name="combo">
+                    <!-- Opciones de la lista -->
+                    <option value="1">España</option>
+                    <option value="2">Honduras</option>
+                    <option value="3">Australia</option>
+                    <option value="4">Egipto</option>
+                    <option value="5">Australia</option>
+                    <option value="6">China</option>
+                    </select></td>
+                </tr>
+                
+                 <tr>
+                    <td><strong>Numero de ordenadores:</strong></td>
+                    <td><input type="number"  max="10" min="1"></td>
+                </tr>
+                
+                <tr>
+                    <td> <strong>Hora de entrega</strong> </td>
+                    <td><input type="time" list="items">
+                             <!-- Lista de opciones -->
+                        <datalist id="items">
+                        <option value="10:00">10:00</option>
+                        <option value="11:00">11:00</option>
+                        <option value="12:00">12:00</option>
+                        <option value="13:00">13:00</option>
+                        <option value="16:00">16:00</option>
+                        </datalist> 
+                    </td>
+                </tr>
+            </form>
+        </table>                  
+                
+            </div>
+        
+        <div class="panelDoble" >
+            <button style="margin-bottom: 15px"; onclick="location.href='procesa.html'"; class="fa fa-external-link btn btn-info";>Información</button>
+            
+        </div>
+    <footer>
+
+           <p>Copyright 2019 Nancy Marisol Muñoz Cardona</p>
+
+    </footer>      
+        
+    </body>
+
+
+</html>
